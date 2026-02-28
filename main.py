@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-BOT_TOKEN = os.getenv("8660833208:AAHN_VwPxowqsyNgSNGj3B4rVOkW2HeLyF8")
+BOT_TOKEN = "8660833208:AAHN_VwPxowqsyNgSNGj3B4rVOkW2HeLyF8"
 
 # Configure Logging for long-term monitoring
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
